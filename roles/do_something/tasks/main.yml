@@ -1,0 +1,4 @@
+---
+- name: Check If maven is already installed or not
+  shell: 'mvn --version | grep -w "Apache Maven" | awk "{print $3}"'
+  register: maven_installed
