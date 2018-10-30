@@ -1,3 +1,7 @@
 --- 
 first_name: Monica Larisa
 last_name: Antal
+insert_path: "/home/vagrant/nohup.out"
+with_items:
+  - 'chestii'
+  - 'alte chestii'
